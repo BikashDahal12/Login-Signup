@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.header-container{
+    display: flex; 
+    justify-content: space-between;
+    margin-left:3rem ;
+    gap: 3rem; 
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+    
+}
+.foot-items{
+    display: flex;
+
+    gap:1rem ;
+    margin-left: 15rem;
+    flex-wrap: wrap;
+}
+
+.footor1 {
+    display:flex;
+}
+
+.footor2{
+    display: flex;
+}
+
+.Buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+   
+}
+.button1{
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    font-size:1rem ;
+    justify-content: space-between;
+}
+.button2{
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    font-size:1rem ;
+    background-color: black;
+    color: white;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    /* height: 95vh; */
+    /* border: 1px solid black; */
+    /* margin: auto; */
+
+}
+header {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+nav{
+    
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav h2{
+width: 122px;
+height: 49px;
+top: 33px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+font-size: 30px;
+font-weight: 600;
+
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul li{
+    padding: 3px 15px;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #121213;
+    font-size: 20px;
+    font-weight: 500;
+    width: 578px;
+    height: 39px;
+    top: 39px;
+    left: 520px;
+    gap: 52px;
+    opacity: 0px;
+
+}
+
+.flex-item {
+    background: rgb(85, 124, 34);
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  .Card_1 {
+    position: relative;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    border: 1px solid orange;
+    border-image: orange;
+  
+    height: auto;
+    width: 20rem;
+    padding: 1rem;
+    background-color: rgba(11, 9, 9, 0.712);
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .Card_1:hover {
+    background-image: linear-gradient(
+      45deg,
+      rgba(148, 68, 155, 1) 0%,
+      rgba(205, 87, 100, 1) 49%,
+      rgba(253, 172, 83, 1) 100%
+    );
+    color: black;
+  }
+
+  .Card_1:hover .Card_body h2 {
+    font-size: 20px;
+  }
+
+  .Card_1 .Card_Head {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Card_1 .Card_Head .fa-amazon {
+    font-size: 2rem;
+  }
+
+  .Card_1 .Card_body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .Card_1 .Card_body button {
+    width: 5.5rem;
+    padding: 0.2rem;
+  }
+
+  .Card_1 .Card_footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Card_1 .Card_footer .foot_Items {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 35px;
+  }
+
+  .Card_1 .Card_footer .foot_Items #dot {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 35px;
+  }
+
+  .containerCard {
+    display: flex;
+    gap: -2rem;
+    max-width: 100%;
+    margin-left: 0rem;
+justify-content: center;
+  }
+
+  .fa-google {
+    font-size: 1.5rem;
+  }
+
+  .fa-apple {
+    font-size: 2rem;
+  }
+
+  .Card_body h2 {
+    font-size: 15px;
+    height: 3px;
+  }
+
+  .Card_body h2:hover {
+    font-size: 20px;
+  }
+  
+  .Card_Head p {
+    font-size: 10px;
+  }
+.absolute{
+  /* position: absolute; */
+  height: 40px;
+  width: 30px;
+  font-size: 50rem;
+  
+   /*z-index: 0; */
+}
+  .fa-arrow-right {
+    margin-top: 35px;
+  }
+  
+  .foot-item{
+    justify-content: space-between;
+    margin-right: 20px;
+    
+  }
+

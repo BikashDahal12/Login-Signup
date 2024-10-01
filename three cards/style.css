@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+.Card_1 {
+  position: relative;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  border: 1px solid orange;
+  border-image: orange;
+
+  height: auto;
+  width: 20rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  cursor: pointer;
+
+  box-sizing: border-box;
+}
+.Card_1:hover {
+  background-image: linear-gradient(
+    45deg,
+    rgba(148, 68, 155, 1) 0%,
+    rgba(205, 87, 100, 1) 49%,
+    rgba(253, 172, 83, 1) 100%
+  );
+  color: black;
+}
+.Card_1:hover .Card_body h2 {
+  font-size: 20px;
+}
+.Card_1 .Card_Head {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Card_1 .Card_Head .fa-amazon {
+  font-size: 2rem;
+}
+.Card_1 .Card_body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.Card_1 .Card_body button {
+  width: 5.5rem;
+  padding: 0.3rem;
+}
+.Card_1 .Card_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.Card_1 .Card_footer .foot_Items {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 35px;
+}
+.Card_1 .Card_footer .foot_Items #dot {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 35px;
+}
+.containerCard {
+  display: flex;
+  gap: -2rem;
+  max-width: 100%;
+  margin-left: 3rem;
+}
+.fa-google {
+  font-size: 1.5rem;
+}
+.fa-apple {
+  font-size: 2rem;
+}
+.Card_body h2 {
+  font-size: 15px;
+  height: 3px;
+}
+.Card_body h2:hover {
+  font-size: 20px;
+}
+
+.Card_Head p {
+  font-size: 10px;
+}
+.fa-arrow-right {
+  margin-top: 35px;
+}
+
