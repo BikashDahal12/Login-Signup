@@ -1,0 +1,24 @@
+.sidebar {
+    height: 100vh; /* Full height */
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #1a1f29; /* Dark background color */
+    padding: 20px; /* Padding inside the sidebar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0; /* Space between items */
+    color: white; /* Text color */
+    font-size: 18px; /* Text size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .sidebar ul li:hover {
+    color: #ccc; /* Lighter color on hover */
+  }
+  
